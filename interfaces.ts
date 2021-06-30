@@ -27,3 +27,7 @@ const printSummary = (item: Reportable): void => {
 };
 
 printSummary(oldCivic);
+
+// funktioiden kannattaa yleisesti ottaen hyväksyä interfaceja argumenteiksi
+// => monenlaisia objekteja voi tunkea sinne
+
